@@ -240,7 +240,7 @@ app.get("/api/service/:staticUrl/status", async (c) => {
           serviceName: service.serviceName,
           status: service.status,
         },
-        503
+        // 503
       );
     }
 
